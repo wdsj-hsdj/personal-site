@@ -3,7 +3,8 @@
 一个使用原生 HTML / CSS / JavaScript 构建的多页个人网站：首页、作品、关于、联系。没有框架、没有构建步骤、没有外部 CDN，解压后双击 `index.html` 就能打开。
 
 - 在线访问：<http://8.137.104.233>
-- GitHub：<https://github.com/WDSJ-HSDJ>
+- 仓库：<https://github.com/wdsj-hsdj/personal-site>
+- GitHub：<https://github.com/wdsj-hsdj>
 - 作者：何军伟 · 四川传媒学院 计算机科学与技术 2026 级
 
 ## 技术栈
@@ -81,14 +82,15 @@ server {
 }
 ```
 
-更新方式：
+当前更新方式（scp）：
 
-```bash
-cd /var/www/hejunwei
-git pull
+```powershell
+scp -i "<你的密钥路径>" index.html root@8.137.104.233:/var/www/hejunwei/
 ```
 
 静态文件更新后不需要重启 Nginx，刷新浏览器即可。
+
+> 代码已托管在 GitHub；如果以后在服务器上用 `git clone` 部署，也可以改成 `git pull` 更新。
 
 ## 设计说明
 
@@ -110,4 +112,4 @@ git pull
 - 四川传媒学院 · 智慧广电学院（人工智能与互动媒体学院）
 - 计算机科学与技术 · 2026 级
 - 邮箱：17380892410@163.com
-- GitHub：<https://github.com/WDSJ-HSDJ>
+- GitHub：<https://github.com/wdsj-hsdj>
