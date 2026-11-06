@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title">
+  <title id="title">何军伟的字母头像 HJW</title>
+  <rect width="400" height="400" fill="#111315"/>
+
+  <!-- faint construction grid -->
+  <g stroke="#F7F5EF" stroke-opacity="0.06" stroke-width="1">
+    <path d="M0 52.5H400M0 104.5H400M0 156.5H400M0 208.5H400M0 260.5H400M0 312.5H400M0 364.5H400"/>
+    <path d="M52.5 0V400M104.5 0V400M156.5 0V400M208.5 0V400M260.5 0V400M312.5 0V400M364.5 0V400"/>
+  </g>
+
+  <!-- pixel H -->
+  <g fill="#1F4FFF">
+    <rect x="60" y="60" width="48" height="48"/>
+    <rect x="60" y="118" width="48" height="48"/>
+    <rect x="60" y="176" width="48" height="48"/>
+    <rect x="60" y="234" width="48" height="48"/>
+    <rect x="60" y="292" width="48" height="48"/>
+
+    <rect x="292" y="60" width="48" height="48"/>
+    <rect x="292" y="118" width="48" height="48"/>
+    <rect x="292" y="176" width="48" height="48"/>
+    <rect x="292" y="234" width="48" height="48"/>
+    <rect x="292" y="292" width="48" height="48"/>
+
+    <rect x="118" y="176" width="48" height="48"/>
+    <rect x="176" y="176" width="48" height="48"/>
+    <rect x="234" y="176" width="48" height="48"/>
+  </g>
+
+  <!-- accents -->
+  <rect x="292" y="60" width="48" height="48" fill="#C96F4A"/>
+  <rect x="176" y="176" width="48" height="48" fill="#1F4FFF"/>
+  <rect x="60" y="292" width="48" height="48" fill="#C96F4A"/>
+
+  <text x="340" y="378" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="10" letter-spacing="1.5" fill="#F7F5EF" fill-opacity="0.5">HJW / 2026</text>
+</svg>
