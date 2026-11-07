@@ -40,7 +40,7 @@
       <div class="container">
         <p class="eyebrow">Selected Work / 2026</p>
         <h1>作品<span class="accent">.</span></h1>
-        <p class="page-lead">两个项目：一个已经部署，一个还在路上。我把过程和取舍也写下来，而不只是放几张图。</p>
+        <p class="page-lead">两个项目：一个已经上线，一个已经能在本地运行。我把过程和取舍也写下来，而不只是放几张图。</p>
       </div>
     </section>
 
@@ -107,44 +107,64 @@
         <div data-reveal>
           <p class="section-label">02 / AI Companion</p>
           <h2>AI 陪伴应用</h2>
-          <p class="status">开发中</p>
-          <p class="project-summary">一个会记住你、保持稳定人格的 AI 陪伴应用。目标不是“更聪明的聊天框”，而是更有连续性的陪伴体验。</p>
+          <p class="status status--blue">已开发 · 本地运行</p>
+          <p class="project-summary">一个桌面 AI 伴侣：Spine 立绘 + DeepSeek 对话 + GPT-SoVITS 语音 + 长期记忆。目标不是“更聪明的聊天框”，而是更有连续性的陪伴体验。</p>
 
           <dl class="project-meta">
             <div>
-              <dt>目前</dt>
-              <dd>需求梳理 / 界面设计 / 案例整理</dd>
+              <dt>状态</dt>
+              <dd>已开发 · Electron 桌面端 · 本地运行</dd>
             </div>
             <div>
-              <dt>关注</dt>
-              <dd>记忆、人格一致性、对话体验</dd>
+              <dt>技术</dt>
+              <dd>Electron / PixiJS / Spine / Python / WebSocket / DeepSeek / GPT-SoVITS</dd>
+            </div>
+            <div>
+              <dt>我的工作</dt>
+              <dd>需求、界面、后端、语音链路、记忆、打包、测试</dd>
             </div>
             <div>
               <dt>边界</dt>
-              <dd>不提供心理或医疗建议，不替代真实关系</dd>
+              <dd>API Key 与记忆只保留本机；不提供心理或医疗建议</dd>
             </div>
           </dl>
 
-          <p class="project-note">案例整理中，后续更新。这里先放界面示意，不放未完成的截图。</p>
+          <ul class="feature-list">
+            <li>三套 Spine 立绘按日期/周末/节日切换，缺资源自动回退常服。</li>
+            <li>回复先上屏，TTS 音频经 WebSocket 下发；语音失败降级纯文字。</li>
+            <li>短期窗口 + 长期摘要记忆；3 分钟无对话会主动找话题。</li>
+          </ul>
+
+          <p class="project-note">桌面端本地运行；这里放界面示意，不使用未完成的截图。</p>
         </div>
 
         <div class="ai-preview" data-reveal>
-          <div class="phone-frame" aria-hidden="true">
-            <div class="phone-top">
-              <span>21:07</span>
-              <span>● ● ●</span>
+          <div class="pet-window" aria-hidden="true">
+            <div class="pet-titlebar">
+              <span class="pet-dot"></span>
+              <span class="pet-dot"></span>
+              <span class="pet-dot"></span>
+              <span class="pet-title">佳代子 AI 伴侣</span>
+              <span class="pet-version">v1.1.0</span>
             </div>
-            <div class="phone-chat">
-              <div class="bubble bubble--ai">今天也辛苦啦。想聊聊吗？</div>
+            <div class="pet-stage">
+              <div class="pet-glow"></div>
+              <div class="pet-portrait">
+                <span>佳</span>
+                <small>Spine 立绘区域</small>
+              </div>
+              <div class="pet-speech">今天也辛苦啦。想聊聊吗？</div>
+            </div>
+            <div class="pet-chat">
               <div class="bubble bubble--me">有点累。</div>
               <div class="bubble bubble--ai">那我们先不解决问题，陪你把今天说完。</div>
             </div>
-            <div class="phone-input">
+            <div class="pet-input">
               <span>说点什么…</span>
               <span>↑</span>
             </div>
           </div>
-          <p class="preview-note">界面示意 · 开发中</p>
+          <p class="preview-note">界面示意 · 本地运行</p>
         </div>
       </div>
     </section>
