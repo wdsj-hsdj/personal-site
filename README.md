@@ -111,5 +111,5 @@ scp -i "<你的密钥路径>" index.html root@8.137.104.233:/var/www/hejunwei/
 - 何军伟
 - 四川传媒学院 · 智慧广电学院（人工智能与互动媒体学院）
 - 计算机科学与技术 · 2026 级
-- 邮箱：17380892410@163.com
+- 邮箱：hejunwei@example.com
 - GitHub：<https://github.com/wdsj-hsdj>
