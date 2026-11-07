@@ -1388,6 +1388,21 @@ button {
   background: var(--blue);
 }
 
+.pet-shot {
+  width: min(100%, 560px);
+  overflow: hidden;
+  border: 1px solid rgba(247, 245, 239, 0.18);
+  border-radius: 8px;
+  background: #0b0d10;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+}
+
+.pet-shot img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .pet-window {
   width: min(100%, 380px);
   overflow: hidden;
